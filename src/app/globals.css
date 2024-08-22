@@ -58,6 +58,28 @@
     --chart-5: 340 75% 55%;
   }
 }
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 4px;  /* Largura da barra de rolagem */
+  height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Track da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;  /* Cor do fundo da track */
+}
+
+/* Polegar (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #888;  /* Cor do polegar */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Polegar da barra de rolagem ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;  /* Cor ao passar o mouse */
+}
+
 
 @layer base {
   * {
