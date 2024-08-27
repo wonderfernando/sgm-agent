@@ -22,7 +22,7 @@ export default function HomePage() {
                         <CardTitle className="flex flex-col text-sm md:text-2xl text-center gap-1 items-center justify-center"><AlertTriangle />Alertas de Roubos</CardTitle>
                     </CardHeader>
                     <CardDescription className="text-center text-2xl font-bold">
-                        <span>02</span>
+                        <span>04</span>
                     </CardDescription>
                 </Card>
                 <Card className=" items-center justify-center pb-2">
