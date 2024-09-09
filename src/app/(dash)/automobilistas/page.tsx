@@ -13,63 +13,18 @@ export default function AutomobolistasPages() {
                 <Input placeholder="Procurar automobilista" className="rounded-r-none" />
                 <Button className="rounded-l-none" variant={"secondary"}><Search /></Button>
             </form>
-            <div>
-                <Table>
-                    <TableHeader>
-                        <TableRow>
-                            <TableHead>Nome</TableHead>
-                            <TableHead>Telefone</TableHead>
-                            <TableHead>BI</TableHead>
-                            <TableHead>Nº da Carta</TableHead>
-                        </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                        
-                            <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                                    <TableRow>
-                                <TableCell><Link href="/automobilistas/1"><p>Joao manuel</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>932423423</p>  </Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>00042342409LA</p></Link></TableCell>
-                                <TableCell><Link href="/automobilistas/1"><p>213123131312</p></Link></TableCell>
-                            </TableRow>
-                       
-                    </TableBody>
-                </Table>
+            <div className="pt-4 flex flex-col gap-2">
+                <Link href="/automobilistas/1">
+                    <div className="flex gap-2 items-center justify-start  rounded-lg shadow-sm ring-1 ring-zinc-100 h-20">
+                        <img src="/images/9720027.jpg" className="w-20 rounded-l-lg" alt="" />
+                        <div className="flex flex-col text-sm justify-start flex-1 text-zinc-500">
+                            <span>Nome: Fernando Silva</span>
+                            <span>BI: 123456789</span>
+                            <span>Telefone: 123456789</span>
+                        </div>
+                    </div>
+                </Link>
+
             </div>
         </div>
     )
